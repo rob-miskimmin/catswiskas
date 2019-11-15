@@ -1,0 +1,79 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(232, 72, 85, 1);
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+aside {
+    width: 49%;
+    background-image: linear-gradient(to left, rgba(234, 97, 107, 1), rgba(232, 72, 85, 1));
+    text-align: center;
+}
+
+section {
+    width: 49%;
+    background-image: linear-gradient(to right, rgba(234, 97, 107, 1), rgba(232, 72, 85, 1));
+}
+
+.logo {
+    height: 10vw;
+    font-size: 3rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5rem;
+    background-color: rgba(232, 72, 85, 1);
+    padding-bottom: 1rem;
+    color: white;
+}
+
+p {
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: rgba(64, 66, 87, 1);
+}
+
+.craft {
+    display: flex;
+    margin-bottom: 2rem;
+    width: 75%;
+}
+
+.craft button {
+    width: 50%;
+    padding: 1rem 2.5rem;
+    border-radius: .5rem;
+    background-image: linear-gradient(to right, rgba(255, 253, 130, 1), rgba(234, 97, 107, 1));
+    border: none;
+    font-size: 1.5rem;
+    color: rgba(27, 153, 139, 1);
+}
+
+.selection {
+    width: 5.5rem;
+    font-size: 2rem;
+    padding: 1.5rem;
+    border-radius: 10rem;
+    margin-left: 1.5rem;
+    background-image: linear-gradient(to right, rgba(255, 253, 130, 1), rgba(234, 97, 107, 1));
+    border: none;
+    color: rgba(27, 153, 139, 1);
+}
+
+.selectors {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
