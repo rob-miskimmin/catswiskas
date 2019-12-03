@@ -12,12 +12,13 @@ body {
 main {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 aside {
     width: 49%;
-    background-image: linear-gradient(to left, rgba(234, 97, 107, 1), rgba(232, 72, 85, 1));
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 section {
@@ -71,9 +72,53 @@ p {
     color: rgba(27, 153, 139, 1);
 }
 
-.selectors {
+.selectors-wreath,
+.selectors-card {
     width: 75%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnails button {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin: 3rem 0 0 -3rem;
+}
+
+.thumbnails button img {
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+.main-image {
+    width: 70%;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(64, 66, 87, 1);
+    padding: 2rem;
+}
+
+footer p {
+    color: rgba(232, 72, 85, 1);
+}
+
+footer i {
+    margin-right: .5rem;
+}
+
+.picker {
+    display: none;
 }
